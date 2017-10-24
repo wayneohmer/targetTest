@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B05379E1F9FE0C500069144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EAD1D1F9FB7FE00607CB6 /* ViewController.swift */; };
+		2B05379F1F9FE0C500069144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EAD1B1F9FB7FE00607CB6 /* AppDelegate.swift */; };
+		2B0537A01F9FE0C500069144 /* Skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EAD5E1F9FBBC100607CB6 /* Skin.swift */; };
+		2B0537A11F9FE0C500069144 /* SkinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EAD491F9FB83700607CB6 /* SkinedButton.swift */; };
+		2B0537A41F9FE0C500069144 /* blueColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B9EAD5A1F9FBADF00607CB6 /* blueColors.plist */; };
+		2B0537A51F9FE0C500069144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9EAD241F9FB7FE00607CB6 /* LaunchScreen.storyboard */; };
+		2B0537A61F9FE0C500069144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9EAD221F9FB7FE00607CB6 /* Assets.xcassets */; };
+		2B0537A71F9FE0C500069144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9EAD1F1F9FB7FE00607CB6 /* Main.storyboard */; };
 		2B9EAD1C1F9FB7FE00607CB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EAD1B1F9FB7FE00607CB6 /* AppDelegate.swift */; };
 		2B9EAD1E1F9FB7FE00607CB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EAD1D1F9FB7FE00607CB6 /* ViewController.swift */; };
 		2B9EAD211F9FB7FE00607CB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9EAD1F1F9FB7FE00607CB6 /* Main.storyboard */; };
@@ -14,6 +22,16 @@
 		2B9EAD261F9FB7FE00607CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9EAD241F9FB7FE00607CB6 /* LaunchScreen.storyboard */; };
 		2B9EAD311F9FB7FE00607CB6 /* targetTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EAD301F9FB7FE00607CB6 /* targetTestTests.swift */; };
 		2B9EAD3C1F9FB7FE00607CB6 /* targetTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EAD3B1F9FB7FE00607CB6 /* targetTestUITests.swift */; };
+		2B9EAD4A1F9FB83700607CB6 /* SkinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EAD491F9FB83700607CB6 /* SkinedButton.swift */; };
+		2B9EAD4D1F9FB9AA00607CB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EAD1D1F9FB7FE00607CB6 /* ViewController.swift */; };
+		2B9EAD4E1F9FB9AA00607CB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EAD1B1F9FB7FE00607CB6 /* AppDelegate.swift */; };
+		2B9EAD4F1F9FB9AA00607CB6 /* SkinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EAD491F9FB83700607CB6 /* SkinedButton.swift */; };
+		2B9EAD521F9FB9AA00607CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9EAD241F9FB7FE00607CB6 /* LaunchScreen.storyboard */; };
+		2B9EAD531F9FB9AA00607CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9EAD221F9FB7FE00607CB6 /* Assets.xcassets */; };
+		2B9EAD541F9FB9AA00607CB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9EAD1F1F9FB7FE00607CB6 /* Main.storyboard */; };
+		2B9EAD5D1F9FBAF200607CB6 /* pinkColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B9EAD5C1F9FBAF200607CB6 /* pinkColors.plist */; };
+		2B9EAD5F1F9FBBC100607CB6 /* Skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EAD5E1F9FBBC100607CB6 /* Skin.swift */; };
+		2B9EAD601F9FBBC100607CB6 /* Skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9EAD5E1F9FBBC100607CB6 /* Skin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B0537AB1F9FE0C500069144 /* targetTestBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = targetTestBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0537AC1F9FE0C600069144 /* targetTestBlue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "targetTestBlue-Info.plist"; path = "/Users/wayneohmer/targetTest/targetTest/targetTestBlue-Info.plist"; sourceTree = "<absolute>"; };
 		2B9EAD181F9FB7FE00607CB6 /* targetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = targetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9EAD1B1F9FB7FE00607CB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B9EAD1D1F9FB7FE00607CB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,9 +67,22 @@
 		2B9EAD371F9FB7FE00607CB6 /* targetTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = targetTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9EAD3B1F9FB7FE00607CB6 /* targetTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = targetTestUITests.swift; sourceTree = "<group>"; };
 		2B9EAD3D1F9FB7FE00607CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9EAD491F9FB83700607CB6 /* SkinedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinedButton.swift; sourceTree = "<group>"; };
+		2B9EAD581F9FB9AA00607CB6 /* targetTestPink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = targetTestPink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9EAD591F9FB9AA00607CB6 /* targetTestPink-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "targetTestPink-Info.plist"; path = "/Users/wayneohmer/targetTest/targetTest/targetTestPink-Info.plist"; sourceTree = "<absolute>"; };
+		2B9EAD5A1F9FBADF00607CB6 /* blueColors.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = blueColors.plist; sourceTree = "<group>"; };
+		2B9EAD5C1F9FBAF200607CB6 /* pinkColors.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = pinkColors.plist; sourceTree = "<group>"; };
+		2B9EAD5E1F9FBBC100607CB6 /* Skin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B0537A21F9FE0C500069144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B9EAD151F9FB7FE00607CB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -65,6 +98,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2B9EAD341F9FB7FE00607CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9EAD501F9FB9AA00607CB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,6 +130,8 @@
 				2B9EAD181F9FB7FE00607CB6 /* targetTest.app */,
 				2B9EAD2C1F9FB7FE00607CB6 /* targetTestTests.xctest */,
 				2B9EAD371F9FB7FE00607CB6 /* targetTestUITests.xctest */,
+				2B9EAD581F9FB9AA00607CB6 /* targetTestPink.app */,
+				2B0537AB1F9FE0C500069144 /* targetTestBlue.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +141,16 @@
 			children = (
 				2B9EAD1B1F9FB7FE00607CB6 /* AppDelegate.swift */,
 				2B9EAD1D1F9FB7FE00607CB6 /* ViewController.swift */,
+				2B9EAD5E1F9FBBC100607CB6 /* Skin.swift */,
+				2B9EAD491F9FB83700607CB6 /* SkinedButton.swift */,
 				2B9EAD1F1F9FB7FE00607CB6 /* Main.storyboard */,
 				2B9EAD221F9FB7FE00607CB6 /* Assets.xcassets */,
 				2B9EAD241F9FB7FE00607CB6 /* LaunchScreen.storyboard */,
+				2B9EAD591F9FB9AA00607CB6 /* targetTestPink-Info.plist */,
+				2B0537AC1F9FE0C600069144 /* targetTestBlue-Info.plist */,
 				2B9EAD271F9FB7FE00607CB6 /* Info.plist */,
+				2B9EAD5A1F9FBADF00607CB6 /* blueColors.plist */,
+				2B9EAD5C1F9FBAF200607CB6 /* pinkColors.plist */,
 			);
 			path = targetTest;
 			sourceTree = "<group>";
@@ -128,6 +176,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2B05379C1F9FE0C500069144 /* targetTestBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0537A81F9FE0C500069144 /* Build configuration list for PBXNativeTarget "targetTestBlue" */;
+			buildPhases = (
+				2B05379D1F9FE0C500069144 /* Sources */,
+				2B0537A21F9FE0C500069144 /* Frameworks */,
+				2B0537A31F9FE0C500069144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = targetTestBlue;
+			productName = targetTest;
+			productReference = 2B0537AB1F9FE0C500069144 /* targetTestBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
 		2B9EAD171F9FB7FE00607CB6 /* targetTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B9EAD401F9FB7FE00607CB6 /* Build configuration list for PBXNativeTarget "targetTest" */;
@@ -181,6 +246,23 @@
 			productReference = 2B9EAD371F9FB7FE00607CB6 /* targetTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		2B9EAD4B1F9FB9AA00607CB6 /* targetTestPink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9EAD551F9FB9AA00607CB6 /* Build configuration list for PBXNativeTarget "targetTestPink" */;
+			buildPhases = (
+				2B9EAD4C1F9FB9AA00607CB6 /* Sources */,
+				2B9EAD501F9FB9AA00607CB6 /* Frameworks */,
+				2B9EAD511F9FB9AA00607CB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = targetTestPink;
+			productName = targetTest;
+			productReference = 2B9EAD581F9FB9AA00607CB6 /* targetTestPink.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,6 +273,9 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Wayne Ohmer";
 				TargetAttributes = {
+					2B05379C1F9FE0C500069144 = {
+						ProvisioningStyle = Automatic;
+					};
 					2B9EAD171F9FB7FE00607CB6 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
@@ -204,6 +289,9 @@
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2B9EAD171F9FB7FE00607CB6;
+					};
+					2B9EAD4B1F9FB9AA00607CB6 = {
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -221,6 +309,8 @@
 			projectRoot = "";
 			targets = (
 				2B9EAD171F9FB7FE00607CB6 /* targetTest */,
+				2B9EAD4B1F9FB9AA00607CB6 /* targetTestPink */,
+				2B05379C1F9FE0C500069144 /* targetTestBlue */,
 				2B9EAD2B1F9FB7FE00607CB6 /* targetTestTests */,
 				2B9EAD361F9FB7FE00607CB6 /* targetTestUITests */,
 			);
@@ -228,6 +318,17 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B0537A31F9FE0C500069144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0537A41F9FE0C500069144 /* blueColors.plist in Resources */,
+				2B0537A51F9FE0C500069144 /* LaunchScreen.storyboard in Resources */,
+				2B0537A61F9FE0C500069144 /* Assets.xcassets in Resources */,
+				2B0537A71F9FE0C500069144 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B9EAD161F9FB7FE00607CB6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,15 +353,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B9EAD511F9FB9AA00607CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9EAD521F9FB9AA00607CB6 /* LaunchScreen.storyboard in Resources */,
+				2B9EAD531F9FB9AA00607CB6 /* Assets.xcassets in Resources */,
+				2B9EAD5D1F9FBAF200607CB6 /* pinkColors.plist in Resources */,
+				2B9EAD541F9FB9AA00607CB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2B05379D1F9FE0C500069144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B05379E1F9FE0C500069144 /* ViewController.swift in Sources */,
+				2B05379F1F9FE0C500069144 /* AppDelegate.swift in Sources */,
+				2B0537A01F9FE0C500069144 /* Skin.swift in Sources */,
+				2B0537A11F9FE0C500069144 /* SkinedButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B9EAD141F9FB7FE00607CB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2B9EAD1E1F9FB7FE00607CB6 /* ViewController.swift in Sources */,
 				2B9EAD1C1F9FB7FE00607CB6 /* AppDelegate.swift in Sources */,
+				2B9EAD5F1F9FBBC100607CB6 /* Skin.swift in Sources */,
+				2B9EAD4A1F9FB83700607CB6 /* SkinedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +402,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B9EAD3C1F9FB7FE00607CB6 /* targetTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9EAD4C1F9FB9AA00607CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9EAD4D1F9FB9AA00607CB6 /* ViewController.swift in Sources */,
+				2B9EAD4E1F9FB9AA00607CB6 /* AppDelegate.swift in Sources */,
+				2B9EAD601F9FBBC100607CB6 /* Skin.swift in Sources */,
+				2B9EAD4F1F9FB9AA00607CB6 /* SkinedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +451,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2B0537A91F9FE0C500069144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKUA3NG8A6;
+				INFOPLIST_FILE = "$(SRCROOT)/targetTest/targetTestBlue-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trialbyfyre.targetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B0537AA1F9FE0C500069144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKUA3NG8A6;
+				INFOPLIST_FILE = "$(SRCROOT)/targetTest/targetTestBlue-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trialbyfyre.targetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2B9EAD3E1F9FB7FE00607CB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -518,9 +684,48 @@
 			};
 			name = Release;
 		};
+		2B9EAD561F9FB9AA00607CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKUA3NG8A6;
+				INFOPLIST_FILE = "targetTest/targetTestPink-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trialbyfyre.targetTestPink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9EAD571F9FB9AA00607CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKUA3NG8A6;
+				INFOPLIST_FILE = "targetTest/targetTestPink-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trialbyfyre.targetTestPink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B0537A81F9FE0C500069144 /* Build configuration list for PBXNativeTarget "targetTestBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0537A91F9FE0C500069144 /* Debug */,
+				2B0537AA1F9FE0C500069144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2B9EAD131F9FB7FE00607CB6 /* Build configuration list for PBXProject "targetTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -553,6 +758,15 @@
 			buildConfigurations = (
 				2B9EAD471F9FB7FE00607CB6 /* Debug */,
 				2B9EAD481F9FB7FE00607CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9EAD551F9FB9AA00607CB6 /* Build configuration list for PBXNativeTarget "targetTestPink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9EAD561F9FB9AA00607CB6 /* Debug */,
+				2B9EAD571F9FB9AA00607CB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

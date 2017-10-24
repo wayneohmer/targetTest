@@ -17,13 +17,8 @@ class SkinedButton: UIButton {
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        if Skin.sharedSkin.colorDict["buttonColor"] == "Blue" {
-            self.backgroundColor = UIColor.blue
-        } else if Skin.sharedSkin.colorDict["buttonColor"] == "Green" {
-            self.backgroundColor = UIColor.green
-        } else {
-            self.backgroundColor = UIColor.yellow
-        }
+        self.backgroundColor = Skin.sharedSkin.buttonBackgroundColor
+        self.setTitleColor(Skin.sharedSkin.buttonTextColor, for: .normal)
     }
     
 }
